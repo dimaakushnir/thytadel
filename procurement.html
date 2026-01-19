@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-lenis">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Thytadel</title>
+</head>
+
+<body>
+    <svg display="none">
+    <symbol id="arrow20" viewBox="0 0 20 20">
+        <g>
+            <path
+                d="M3.59586 15.4432L12.9798 6.05932L4.93641 6.05932L4.86747 4.97921L14.8259 4.97921L14.8259 14.9376L13.7458 14.8687L13.7458 6.82535L4.36189 16.2092L3.59586 15.4432Z" />
+        </g>
+    </symbol>
+    <symbol id="arrow46" viewBox="0 0 46 46">
+        <g>
+            <path
+                d="M13.1313 32.3226L29.7336 15.7203L15.503 15.7203L15.3811 13.8094L32.9998 13.8094L32.9998 31.4281L31.0888 31.3061L31.0888 17.0756L14.4866 33.6779L13.1313 32.3226Z" />
+        </g>
+    </symbol>
+</svg>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__main">
+                <div class="header__container container">
+                    <div class="header__row">
+                        <a href="index.html" class="header__logo">
+                            <span class="header__logo_white">
+                                <img src="img/logo-white.svg" alt="Thytadel">
+                            </span>
+                            <span class="header__logo_black">
+                                <img src="img/logo-black.svg" alt="Thytadel">
+                            </span>
+                        </a>
+                        <nav class="header__menu menu-header" data-da="mobile-header__inner, 0, 1200">
+                            <ul>
+                                <li>
+                                    <a href="technology.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Tech</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Tech</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="procurement.html" class="menu-header__link link active">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Procurement</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Procurement</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="concierge.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Concierge</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Concierge</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="assets.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Asset Management</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Asset Management</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">About Us</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">About Us</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__btns">
+                            <a href="" class="header__contact btn btn_small btn_border-black">Contact</a>
+                            <button class="header__burger">
+                                <span></span><span></span><span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile mobile-header">
+                <div class="mobile-header__container container">
+                    <div class="mobile-header__body">
+                        <div class="mobile-header__inner">
+                            <div class="mobile-header__contacts contacts">
+                                <div class="contacts__address">
+                                    Thytadel Limited<br>
+                                    United Kingdom
+                                </div>
+                                <div class="contacts__links">
+                                    <div class="contacts__link link-contacts">
+                                        <span class="link-contacts__label">Email:</span>
+                                        <a href="mailto:contact@thytadel.com"
+                                            class="link-contacts__value">contact@thytadel.com</a>
+                                    </div>
+                                    <div class="contacts__link link-contacts">
+                                        <span class="link-contacts__label">Phone:</span>
+                                        <a href="tel:+443458558787" class="link-contacts__value">+44 345 855 8787</a>
+                                    </div>
+                                </div>
+                                <div class="contacts__socials socials">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Instagram</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Youtube</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">LinkedIn</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="procurement">
+            <section class="hero">
+                <div class="hero__container container">
+                    <div class="hero__top top-hero">
+                        <div class="top-hero__row">
+                            <div class="top-hero__column top-hero__column_title">
+                                <div class="top-hero__title-block animate__animated animate__fadeIn"
+                                    style="animation-duration: 1.5s; animation-delay: 0.5s;">
+                                    <h1 class="top-hero__title">
+                                        Government supply for critical environments
+                                    </h1>
+                                    <div class="top-hero__breadcrumbs breadcrumbs b4"
+                                        data-da="top-hero__column_content, 1, 650">
+                                        <ul>
+                                            <li>
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li>
+                                                <span>Supply</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top-hero__column top-hero__column_content">
+                                <div class="top-hero__text b4 animate__animated animate__fadeIn"
+                                    style="animation-duration: 1.5s; animation-delay: 1s;">
+                                    <p>
+                                        Thytadel delivers technology, equipment, and operational capability to public
+                                        bodies operating where reliability, accountability, and performance are
+                                        non-negotiable.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__deliver deliver">
+                        <div class="deliver__top top top_black top_label">
+                            <div class="top__label b4 wow animate__animated animate__fadeInLeft">What Deliver</div>
+                            <div class="top__row">
+                                <div class="top__column top__column_title wow animate__animated animate__fadeInLeft">
+                                    <h2 class="top__title medium">
+                                        End-to-end government supply
+                                    </h2>
+                                </div>
+                                <div class="top__column top__column_text wow animate__animated animate__fadeInRight">
+                                    <div class="top__text b4">
+                                        <p>
+                                            Our role extends beyond supply.
+                                            We assume responsibility for integration, operational readiness, and
+                                            lifecycle performance.
+                                            This is not transactional procurement.
+                                            It is mission-aligned delivery.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="deliver__row">
+                            <div class="deliver__column wow animate__animated animate__fadeInUp">
+                                <div class="deliver__item item-deliver">
+                                    <div class="item-deliver__title b1">Assessment & Specification</div>
+                                    <div class="item-deliver__text b4">
+                                        <p>
+                                            We work with public stakeholders to assess operational requirements, risk
+                                            profiles, and deployment environments. Specifications are shaped by
+                                            real-world conditions, not theoretical performance.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="deliver__column wow animate__animated animate__fadeInUp">
+                                <div class="deliver__item item-deliver">
+                                    <div class="item-deliver__title b1">Sourcing & Verification</div>
+                                    <div class="item-deliver__text b4">
+                                        <p>
+                                            We source certified technology, specialist equipment, and operational
+                                            systems from vetted suppliers. All components are evaluated for compliance,
+                                            interoperability, and operational resilience.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="deliver__column wow animate__animated animate__fadeInUp">
+                                <div class="deliver__item item-deliver">
+                                    <div class="item-deliver__title b1">Deployment & Integration</div>
+                                    <div class="item-deliver__text b4">
+                                        <p>
+                                            We coordinate delivery, installation, and integration with existing
+                                            infrastructure and operational teams. Systems are deployed with continuity
+                                            of service and minimal disruption.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="deliver__column wow animate__animated animate__fadeInUp">
+                                <div class="deliver__item item-deliver">
+                                    <div class="item-deliver__title b1">Support & Oversight</div>
+                                    <div class="item-deliver__text b4">
+                                        <p>
+                                            Post-deployment, we support training, maintenance coordination, and
+                                            performance monitoring. Structured reporting ensures transparency for
+                                            regulators, insurers, and oversight bodies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="we-support">
+                <div class="we-support__bg ibg">
+                    <img src="img/procurement/we-support/01.jpg" alt="we-support-img">
+                </div>
+                <div class="we-support__container container">
+                    <div class="we-support__body">
+                        <h2 class="we-support__title medium wow animate__animated animate__fadeIn"
+                            style="animation-delay: 0.25s; animation-duration: 1.5s;">
+                            We support governments and public operators with the sourcing, deployment, and long-term
+                            management of safety-critical systems and specialist equipment.
+                        </h2>
+                        <a href="#"
+                            class="we-support__btn btn btn_big btn_border-white wow animate__animated animate__fadeIn"
+                            style="animation-delay: 0.5s; animation-duration: 1.5s;">Contact team</a>
+                    </div>
+                </div>
+            </section>
+            <section class="supply">
+                <div class="supply__container container">
+                    <div class="supply__top top top_black top_label">
+                        <div class="top__label b4 wow animate__animated animate__fadeInLeft">Supply</div>
+                        <div class="top__row">
+                            <div class="top__column top__column_title wow animate__animated animate__fadeInLeft">
+                                <h2 class="top__title medium">
+                                    Where we operate
+                                </h2>
+                            </div>
+                            <div class="top__column top__column_text wow animate__animated animate__fadeInRight">
+                                <div class="top__text b4">
+                                    <p>
+                                        Thytadel supplies and supports equipment and systems across environments where
+                                        public safety and operational reliability intersect. Our procurement capability
+                                        is domain-agnostic.
+                                        Risk profile and operational context define the solution - not industry labels.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="supply__cards cards">
+                        <div class="cards__row">
+                            <div class="cards__column wow animate__animated animate__fadeInUp">
+                                <div class="cards__item card">
+                                    <svg>
+                                        <use xlink:href="#arrow46"></use>
+                                    </svg>
+                                    <div class="card__text b1">
+                                        <p>
+                                            Civil and recreational safety infrastructure
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cards__column wow animate__animated animate__fadeInUp">
+                                <div class="cards__item card">
+                                    <svg>
+                                        <use xlink:href="#arrow46"></use>
+                                    </svg>
+                                    <div class="card__text b1">
+                                        <p>
+                                            Waterfronts, marinas, and aquatic facilities
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cards__column wow animate__animated animate__fadeInUp">
+                                <div class="cards__item card">
+                                    <svg>
+                                        <use xlink:href="#arrow46"></use>
+                                    </svg>
+                                    <div class="card__text b1">
+                                        <p>
+                                            Public venues and event environments
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cards__column wow animate__animated animate__fadeInUp">
+                                <div class="cards__item card">
+                                    <svg>
+                                        <use xlink:href="#arrow46"></use>
+                                    </svg>
+                                    <div class="card__text b1">
+                                        <p>
+                                            Transport-adjacent and mixed-use facilities
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cards__column wow animate__animated animate__fadeInUp">
+                                <div class="cards__item card">
+                                    <svg>
+                                        <use xlink:href="#arrow46"></use>
+                                    </svg>
+                                    <div class="card__text b1">
+                                        <p>
+                                            Asset-heavy public or semi-public environments
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="governance">
+                <div class="governance__container container">
+                    <div class="governance__top top top_black top_label">
+                        <div class="top__label b4 wow animate__animated animate__fadeInLeft">Governance</div>
+                        <div class="top__row">
+                            <div class="top__column top__column_title wow animate__animated animate__fadeInLeft">
+                                <h2 class="top__title medium">
+                                    Engineered for Oversight
+                                </h2>
+                            </div>
+                            <div class="top__column top__column_text wow animate__animated animate__fadeInRight">
+                                <div class="top__text b4">
+                                    <p>
+                                        Delivering solutions to government entities demands far more than mere execution
+                                        - it calls for comprehensive traceability, robust auditability, and sustained
+                                        accountability over time. At Thytadel, we meticulously design our procurement
+                                        engagements to fully align with stringent regulatory standards, insurance
+                                        mandates, and thorough post-incident evaluations. Oversight isn't treated as a
+                                        secondary consideration; instead, it's seamlessly integrated into every stage of
+                                        our operational framework, ensuring transparency and reliability from inception
+                                        to completion.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="governance__body image-list">
+                        <div class="image-list__row">
+                            <div class="image-list__column wow animate__animated animate__fadeInUp">
+                                <div class="image-list__image">
+                                    <img src="img/procurement/governance/01.jpg" alt="governance-img">
+                                </div>
+                            </div>
+                            <div class="image-list__column wow animate__animated animate__fadeInUp">
+                                <div class="image-list__content">
+                                    <div class="image-list__item">
+                                        <div class="image-list__text b1">
+                                            <p>
+                                                Full alignment with established procurement protocols and regulatory
+                                                guidelines
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="image-list__item">
+                                        <div class="image-list__text b1">
+                                            <p>
+                                                Comprehensive structured documentation and detailed reporting mechanisms
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="image-list__item">
+                                        <div class="image-list__text b1">
+                                            <p>
+                                                Transparent and well-defined supplier accountability pathways
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="image-list__item">
+                                        <div class="image-list__text b1">
+                                            <p>
+                                                Dedicated support for independent audits, routine inspections, and
+                                                in-depth reviews
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="why-thytadel">
+                <div class="why-thytadel__container container">
+                    <div class="why-thytadel__row">
+                        <div
+                            class="why-thytadel__column why-thytadel__column_title wow animate__animated animate__fadeInLeft">
+                            <h2 class="why-thytadel__title">
+                                We do not pursue volume.<br>
+                                <span>We pursue deployments where responsibility matters.</span>
+                            </h2>
+                        </div>
+                        <div
+                            class="why-thytadel__column why-thytadel__column_text wow animate__animated animate__fadeInRight">
+                            <div class="why-thytadel__text b4">
+                                <p>
+                                    Thytadel was founded on engineering discipline and operational reality.<br>
+                                    Our earliest systems were built for environments where failure carried immediate
+                                    consequences. That mindset now informs how we approach public procurement:
+                                    conservative in assumptions, rigorous in verification, and focused on long-term
+                                    performance.
+                                </p>
+                            </div>
+                            <a href="" class="why-thytadel__btn btn-arrow btn-arrow_border-black">
+                                <svg>
+                                    <use xlink:href="#arrow20"></use>
+                                </svg>
+                                <span>Contact team</span>
+                                <svg>
+                                    <use xlink:href="#arrow20"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="procurement__call-action call-action">
+                <div class="call-action__container container">
+                    <div class="call-action__body">
+                        <div class="call-action__bg ibg">
+                            <img src="img/call-action/02.jpg" alt="call-action-img">
+                        </div>
+                        <div class="call-action__content">
+                            <h2 class="call-action__title wow animate__animated animate__fadeIn"
+                                style="animation-duration: 1.5s;">Deliver capability<br> where it matters</h2>
+                            <div class="call-action__text b4 wow animate__animated animate__fadeIn"
+                                style="animation-delay: 0.25s; animation-duration: 1.5s;">
+                                <p>
+                                    Thytadel works with governments and public operators seeking reliable supply
+                                    partners for safety-critical environments.
+                                    If your organisation requires more than equipment - and expects accountability - we
+                                    welcome the conversation.
+                                </p>
+                            </div>
+                            <div class="call-action__btns wow animate__animated animate__fadeIn"
+                                style="animation-delay: 0.5s; animation-duration: 1.5s;">
+                                <a href="#"
+                                    class="call-action__btn call-action__btn_discuss btn btn_small btn_border-white">Discuss
+                                    a deployment</a>
+                                <a href="#"
+                                    class="call-action__btn call-action__btn_overview btn btn_small btn_white">Request
+                                    overview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__main">
+                    <div class="footer__row">
+                        <div class="footer__column footer__column_logo">
+                            <div class="footer__content">
+                                <a href="index.html" class="footer__logo">
+                                    <img src="img/logo-white.svg" alt="Thytadel">
+                                </a>
+                                <div class="footer__contacts contacts">
+                                    <div class="contacts__address">
+                                        Thytadel Limited<br>
+                                        United Kingdom
+                                    </div>
+                                    <div class="contacts__links">
+                                        <div class="contacts__link link-contacts">
+                                            <span class="link-contacts__label">Email:</span>
+                                            <a href="mailto:contact@thytadel.com"
+                                                class="link-contacts__value">contact@thytadel.com</a>
+                                        </div>
+                                        <div class="contacts__link link-contacts">
+                                            <span class="link-contacts__label">Phone:</span>
+                                            <a href="tel:+443458558787" class="link-contacts__value">+44 345 855
+                                                8787</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column footer__column_menu">
+                            <div class="footer__content">
+                                <div class="footer__menu menu-footer">
+                                    <div class="menu-footer__title b2">Site Menu</div>
+                                    <nav>
+                                        <ul>
+                                            <li>
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Tech</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Tech</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="menu-footer__link link active">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Procurement</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Procurement</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Concierge</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Concierge</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Asset Management</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Asset Management</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">About Us</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">About Us</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="footer__partners partners-footer">
+                                    <div class="partners-footer__title b2">Partners</div>
+                                    <div class="partners-footer__list">
+                                        <div class="partners-footer__item">
+                                            <img src="img/footer-partners/uk-government.svg" alt="uk-government">
+                                        </div>
+                                        <div class="partners-footer__item">
+                                            <img src="img/footer-partners/university-college-london.svg"
+                                                alt="university-college-london">
+                                        </div>
+                                        <div class="partners-footer__item">
+                                            <img src="img/footer-partners/tenzor.svg" alt="tenzor">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column footer__column_form" data-da="bottom-footer, 1, 1200">
+                            <div class="footer__content">
+                                <div class="footer__form form-footer">
+                                    <div class="form-footer__title b2">Subscribe now</div>
+                                    <form action="#" id="subscribeForm" novalidate>
+                                        <div class="form-footer__row">
+                                            <input type='email' name='youremail' class='form-footer__input' required>
+                                            <input type="hidden" name="recaptcha_token">
+                                            <button type='submit' class='form-footer__btn btn-arrow btn-arrow_white'>
+                                                <svg>
+                                                    <use xlink:href="#arrow20"></use>
+                                                </svg>
+                                                <span>Subscribe</span>
+                                                <svg>
+                                                    <use xlink:href="#arrow20"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </form>
+                                    <div class="form-footer__socials socials">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="socials__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">LinkedIn</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">LinkedIn</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="socials__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Crunchbase</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Crunchbase</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom bottom-footer">
+                    <div class="bottom-footer__content">
+                        <div class="footer__copyright">2026© Thytadel Limited. All rights reserved.</div>
+                        <div class="footer__patent">UK Patent GB2623311</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=SITE_KEY"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>

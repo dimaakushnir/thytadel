@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-lenis">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Thytadel</title>
+</head>
+
+<body>
+    <svg display="none">
+    <symbol id="arrow20" viewBox="0 0 20 20">
+        <g>
+            <path
+                d="M3.59586 15.4432L12.9798 6.05932L4.93641 6.05932L4.86747 4.97921L14.8259 4.97921L14.8259 14.9376L13.7458 14.8687L13.7458 6.82535L4.36189 16.2092L3.59586 15.4432Z" />
+        </g>
+    </symbol>
+    <symbol id="arrow46" viewBox="0 0 46 46">
+        <g>
+            <path
+                d="M13.1313 32.3226L29.7336 15.7203L15.503 15.7203L15.3811 13.8094L32.9998 13.8094L32.9998 31.4281L31.0888 31.3061L31.0888 17.0756L14.4866 33.6779L13.1313 32.3226Z" />
+        </g>
+    </symbol>
+</svg>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__main">
+                <div class="header__container container">
+                    <div class="header__row">
+                        <a href="index.html" class="header__logo">
+                            <span class="header__logo_white">
+                                <img src="img/logo-white.svg" alt="Thytadel">
+                            </span>
+                            <span class="header__logo_black">
+                                <img src="img/logo-black.svg" alt="Thytadel">
+                            </span>
+                        </a>
+                        <nav class="header__menu menu-header" data-da="mobile-header__inner, 0, 1200">
+                            <ul>
+                                <li>
+                                    <a href="technology.html" class="menu-header__link link active">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Tech</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Tech</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="procurement.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Procurement</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Procurement</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="concierge.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Concierge</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Concierge</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="assets.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Asset Management</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Asset Management</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">About Us</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">About Us</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__btns">
+                            <a href="" class="header__contact btn btn_small btn_border-black">Contact</a>
+                            <button class="header__burger">
+                                <span></span><span></span><span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile mobile-header">
+                <div class="mobile-header__container container">
+                    <div class="mobile-header__body">
+                        <div class="mobile-header__inner">
+                            <div class="mobile-header__contacts contacts">
+                                <div class="contacts__address">
+                                    Thytadel Limited<br>
+                                    United Kingdom
+                                </div>
+                                <div class="contacts__links">
+                                    <div class="contacts__link link-contacts">
+                                        <span class="link-contacts__label">Email:</span>
+                                        <a href="mailto:contact@thytadel.com"
+                                            class="link-contacts__value">contact@thytadel.com</a>
+                                    </div>
+                                    <div class="contacts__link link-contacts">
+                                        <span class="link-contacts__label">Phone:</span>
+                                        <a href="tel:+443458558787" class="link-contacts__value">+44 345 855 8787</a>
+                                    </div>
+                                </div>
+                                <div class="contacts__socials socials">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Instagram</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Youtube</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">LinkedIn</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="technology">
+            <section class="technology__hero hero">
+                <div class="hero__container container">
+                    <div class="hero__top top-hero">
+                        <div class="top-hero__row">
+                            <div class="top-hero__column top-hero__column_title">
+                                <div class="top-hero__title-block animate__animated animate__fadeIn"
+                                    style="animation-duration: 1.5s; animation-delay: 0.5s;">
+                                    <h1 class="top-hero__title">
+                                        Safety intelligence for the physical world
+                                    </h1>
+                                    <div class="top-hero__breadcrumbs breadcrumbs b4"
+                                        data-da="top-hero__column_content, 1, 650">
+                                        <ul>
+                                            <li>
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li>
+                                                <span>Technology Page</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top-hero__column top-hero__column_content">
+                                <div class="top-hero__text b4 animate__animated animate__fadeIn"
+                                    style="animation-duration: 1.5s; animation-delay: 1s;">
+                                    <p>
+                                        Our technology operates at the intersection of computer vision, risk modelling,
+                                        and operational decision systems. It was born in extreme and competitive water
+                                        environments, but designed from the outset to scale across assets, venues, and
+                                        public spaces.
+                                    </p>
+                                </div>
+                                <div class="top-hero__patent patent animate__animated animate__fadeIn"
+                                    style="animation-duration: 1.5s; animation-delay: 1.5s;">
+                                    <div class="patent__images">
+                                        <div class="patent__image">
+                                            <img src="img/technology/patent/01.svg" alt="tenzor-international-cup">
+                                        </div>
+                                        <div class="patent__image">
+                                            <img src="img/technology/patent/02.svg" alt="j70">
+                                        </div>
+                                    </div>
+                                    <div class="patent__text b4">
+                                        <p>
+                                            Protected by UK Patent GB2623311, developed from a family-founded safety
+                                            system first engineered for high-risk aquatic incidents.
+                                        </p>
+                                    </div>
+                                    <a href="#" class="patent__btn btn-arrow btn-arrow_black">
+                                        <svg>
+                                            <use xlink:href="#arrow20"></use>
+                                        </svg>
+                                        <span>View patent</span>
+                                        <svg>
+                                            <use xlink:href="#arrow20"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__image-block wow animate__animated animate__fadeInUp"
+                        style="animation-delay: 0.5s;">
+                        <div class="hero__image ibg">
+                            <img src="img/hero/01.jpg" alt="hero-img">
+                        </div>
+                        <div class="hero__text b1">
+                            <p>
+                                Thytadel builds AI systems that observe, understand, and coordinate response across real
+                                environments - where human attention is limited and the cost of failure is high.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="description">
+                <div class="description__container container">
+                    <div class="description__top top top_black top_label">
+                        <div class="top__label b4 wow animate__animated animate__fadeInLeft">Description</div>
+                        <div class="top__row">
+                            <div class="top__column top__column_title wow animate__animated animate__fadeInLeft">
+                                <h2 class="top__title medium">
+                                    Safety is an information problem
+                                </h2>
+                            </div>
+                            <div class="top__column top__column_text wow animate__animated animate__fadeInRight">
+                                <div class="top__text b4">
+                                    <p>
+                                        In complex environments, incidents are rarely caused by a single failure. They
+                                        emerge from incomplete visibility, delayed recognition, and fragmented
+                                        decision-making. Thytadel addresses this by creating a shared operational
+                                        picture - transforming live data into clear, prioritised signals that operators
+                                        can act on immediately. Our systems are designed to reduce uncertainty, not
+                                        generate noise.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description__images images-description wow animate__animated animate__fadeInUp">
+                        <div class="images-description__row">
+                            <div class="images-description__column">
+                                <div class="images-description__items">
+                                    <div class="images-description__item">
+                                        <img src="img/technology/description/02.jpg" alt="description-img">
+                                    </div>
+                                    <div class="images-description__item">
+                                        <img src="img/technology/description/03.jpg" alt="description-img">
+                                    </div>
+                                    <div class="images-description__item">
+                                        <img src="img/technology/description/04.jpg" alt="description-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="images-description__column">
+                                <div class="images-description__main">
+                                    <div class="images-description__main-image">
+                                        <img src="img/technology/description/01.jpg" alt="description-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="how-works">
+                <div class="how-works__container container">
+                    <div class="how-works__top top-2 wow animate__animated animate__fadeIn"
+                        style="animation-duration: 1.5s;">
+                        <div class="top-2__label">How it works</div>
+                        <h2 class="top-2__title">
+                            The Thytadel platform continuously processes live inputs <span>from physical
+                                environments
+                                and converts them into operational intelligence.</span>
+                        </h2>
+                    </div>
+                    <div class="how-works__body wow animate__animated animate__fadeInUp">
+                        <div class="how-works__item item-how-works">
+                            <div class="item-how-works__row">
+                                <div class="item-how-works__column item-how-works__column_title">
+                                    <div class="item-how-works__title-block">
+                                        <div class="item-how-works__number b4">(01)</div>
+                                        <div class="item-how-works__title">Sense</div>
+                                    </div>
+                                </div>
+                                <div class="item-how-works__column item-how-works__column_text">
+                                    <div class="item-how-works__text b4">
+                                        <p>
+                                            The platform ingests real-time inputs from video feeds, sensors, and
+                                            operational systems across water, venues, assets, and facilities.
+                                            It is designed to integrate with existing infrastructure wherever possible.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how-works__item item-how-works">
+                            <div class="item-how-works__row">
+                                <div class="item-how-works__column item-how-works__column_title">
+                                    <div class="item-how-works__title-block">
+                                        <div class="item-how-works__number b4">(02)</div>
+                                        <div class="item-how-works__title">Understand</div>
+                                    </div>
+                                </div>
+                                <div class="item-how-works__column item-how-works__column_text">
+                                    <div class="item-how-works__text b4">
+                                        <p>
+                                            AI models analyse behaviour, motion, and environmental context to detect
+                                            incidents, anomalies, and unsafe conditions. Events are evaluated against
+                                            risk models that prioritise severity and urgency.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how-works__item item-how-works">
+                            <div class="item-how-works__row">
+                                <div class="item-how-works__column item-how-works__column_title">
+                                    <div class="item-how-works__title-block">
+                                        <div class="item-how-works__number b4">(03)</div>
+                                        <div class="item-how-works__title">Decide</div>
+                                    </div>
+                                </div>
+                                <div class="item-how-works__column item-how-works__column_text">
+                                    <div class="item-how-works__text b4">
+                                        <p>
+                                            The system ranks events and determines what requires action now - and what
+                                            does not.
+                                            This ensures operators focus on the right problem at the right moment
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how-works__item item-how-works">
+                            <div class="item-how-works__row">
+                                <div class="item-how-works__column item-how-works__column_title">
+                                    <div class="item-how-works__title-block">
+                                        <div class="item-how-works__number b4">(04)</div>
+                                        <div class="item-how-works__title">Act</div>
+                                    </div>
+                                </div>
+                                <div class="item-how-works__column item-how-works__column_text">
+                                    <div class="item-how-works__text b4">
+                                        <p>
+                                            Alerts, workflows, and notifications are triggered according to predefined
+                                            operational logic. Human teams remain in control, supported by clear,
+                                            time-critical information.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="beyond">
+                <div class="beyond__container container">
+                    <div class="beyond__top top top_white top_label">
+                        <div class="top__label b4 wow animate__animated animate__fadeInLeft">Beyond</div>
+                        <div class="top__row">
+                            <div class="top__column top__column_title wow animate__animated animate__fadeInLeft">
+                                <h2 class="top__title medium">
+                                    Beyond single-use safety systems
+                                </h2>
+                            </div>
+                            <div class="top__column top__column_text wow animate__animated animate__fadeInRight">
+                                <div class="top__text b4">
+                                    <p>
+                                        Thytadel’s earliest deployments focused on aquatic incidents - environments
+                                        defined by low visibility, high noise, and minimal reaction time. These
+                                        constraints shaped the platform’s design and resulted in UK Patent GB2623311.
+                                        The same operating conditions exist far beyond water. Today, the platform
+                                        extends into broader risk domains - identifying unsafe situations, anomalous
+                                        behaviour, and operational threats across diverse environments.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="beyond__body">
+                        <div class="beyond__images images-beyond">
+                            <div class="images-beyond__column wow animate__animated animate__fadeInUp">
+                                <div class="images-beyond__image">
+                                    <img src="img/technology/beyond/01.jpg" alt="beyond-img">
+                                </div>
+                            </div>
+                            <div class="images-beyond__column wow animate__animated animate__fadeInUp">
+                                <div class="images-beyond__image">
+                                    <img src="img/technology/beyond/02.jpg" alt="beyond-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="applied">
+                <div class="applied__container container">
+                    <div class="applied__top top top_black top_label">
+                        <div class="top__label b4 wow animate__animated animate__fadeInLeft">Applied</div>
+                        <div class="top__row">
+                            <div class="top__column top__column_title wow animate__animated animate__fadeInLeft">
+                                <h2 class="top__title medium">
+                                    Designed for complex environments
+                                </h2>
+                            </div>
+                            <div class="top__column top__column_text wow animate__animated animate__fadeInRight">
+                                <div class="top__text b4">
+                                    <p>
+                                        The platform is built to operate where conventional monitoring systems fail. The
+                                        system is environment-agnostic by design. Deployment logic adapts to risk
+                                        profiles, not industries.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="applied__cards cards">
+                        <div class="cards__row">
+                            <div class="cards__column wow animate__animated animate__fadeInUp">
+                                <div class="cards__item card">
+                                    <svg>
+                                        <use xlink:href="#arrow46"></use>
+                                    </svg>
+                                    <div class="card__text b1">
+                                        <p>
+                                            Water parks, marinas, and aquatic facilities
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cards__column wow animate__animated animate__fadeInUp">
+                                <div class="cards__item card">
+                                    <svg>
+                                        <use xlink:href="#arrow46"></use>
+                                    </svg>
+                                    <div class="card__text b1">
+                                        <p>
+                                            Sailing events and offshore operations
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cards__column wow animate__animated animate__fadeInUp">
+                                <div class="cards__item card">
+                                    <svg>
+                                        <use xlink:href="#arrow46"></use>
+                                    </svg>
+                                    <div class="card__text b1">
+                                        <p>
+                                            Public venues and recreational infrastructure
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cards__column wow animate__animated animate__fadeInUp">
+                                <div class="cards__item card">
+                                    <svg>
+                                        <use xlink:href="#arrow46"></use>
+                                    </svg>
+                                    <div class="card__text b1">
+                                        <p>
+                                            Asset-heavy environments (yachts, vehicles, properties)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cards__column wow animate__animated animate__fadeInUp">
+                                <div class="cards__item card">
+                                    <svg>
+                                        <use xlink:href="#arrow46"></use>
+                                    </svg>
+                                    <div class="card__text b1">
+                                        <p>
+                                            Mixed-use and operational facilities
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="technology__call-action call-action">
+                <div class="call-action__container container">
+                    <div class="call-action__body">
+                        <div class="call-action__bg ibg">
+                            <img src="img/call-action/01.jpg" alt="call-action-img">
+                        </div>
+                        <div class="call-action__content">
+                            <h2 class="call-action__title wow animate__animated animate__fadeIn"
+                                style="animation-duration: 1.5s;">Deploy intelligence where it matters</h2>
+                            <div class="call-action__text b4 wow animate__animated animate__fadeIn"
+                                style="animation-delay: 0.25s; animation-duration: 1.5s;">
+                                <p>
+                                    Thytadel works with public bodies, operators, and organisations that require safety
+                                    systems capable of operating in the real world - not controlled environments.
+                                    We engage selectively, prioritising deployments where the platform can deliver
+                                    measurable impact.
+                                </p>
+                            </div>
+                            <div class="call-action__btns wow animate__animated animate__fadeIn"
+                                style="animation-delay: 0.5s; animation-duration: 1.5s;">
+                                <a href="#"
+                                    class="call-action__btn call-action__btn_discuss btn btn_small btn_border-white">Discuss
+                                    a deployment</a>
+                                <a href="#"
+                                    class="call-action__btn call-action__btn_overview btn btn_small btn_white">Request
+                                    overview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__main">
+                    <div class="footer__row">
+                        <div class="footer__column footer__column_logo">
+                            <div class="footer__content">
+                                <a href="index.html" class="footer__logo">
+                                    <img src="img/logo-white.svg" alt="Thytadel">
+                                </a>
+                                <div class="footer__contacts contacts">
+                                    <div class="contacts__address">
+                                        Thytadel Limited<br>
+                                        United Kingdom
+                                    </div>
+                                    <div class="contacts__links">
+                                        <div class="contacts__link link-contacts">
+                                            <span class="link-contacts__label">Email:</span>
+                                            <a href="mailto:contact@thytadel.com"
+                                                class="link-contacts__value">contact@thytadel.com</a>
+                                        </div>
+                                        <div class="contacts__link link-contacts">
+                                            <span class="link-contacts__label">Phone:</span>
+                                            <a href="tel:+443458558787" class="link-contacts__value">+44 345 855
+                                                8787</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column footer__column_menu">
+                            <div class="footer__content">
+                                <div class="footer__menu menu-footer">
+                                    <div class="menu-footer__title b2">Site Menu</div>
+                                    <nav>
+                                        <ul>
+                                            <li>
+                                                <a href="" class="menu-footer__link link active">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Tech</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Tech</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Procurement</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Procurement</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Concierge</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Concierge</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Asset Management</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Asset Management</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">About Us</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">About Us</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="footer__partners partners-footer">
+                                    <div class="partners-footer__title b2">Partners</div>
+                                    <div class="partners-footer__list">
+                                        <div class="partners-footer__item">
+                                            <img src="img/footer-partners/uk-government.svg" alt="uk-government">
+                                        </div>
+                                        <div class="partners-footer__item">
+                                            <img src="img/footer-partners/university-college-london.svg"
+                                                alt="university-college-london">
+                                        </div>
+                                        <div class="partners-footer__item">
+                                            <img src="img/footer-partners/tenzor.svg" alt="tenzor">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column footer__column_form" data-da="bottom-footer, 1, 1200">
+                            <div class="footer__content">
+                                <div class="footer__form form-footer">
+                                    <div class="form-footer__title b2">Subscribe now</div>
+                                    <form action="#" id="subscribeForm" novalidate>
+                                        <div class="form-footer__row">
+                                            <input type='email' name='youremail' class='form-footer__input' required>
+                                            <input type="hidden" name="recaptcha_token">
+                                            <button type='submit' class='form-footer__btn btn-arrow btn-arrow_white'>
+                                                <svg>
+                                                    <use xlink:href="#arrow20"></use>
+                                                </svg>
+                                                <span>Subscribe</span>
+                                                <svg>
+                                                    <use xlink:href="#arrow20"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </form>
+                                    <div class="form-footer__socials socials">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="socials__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">LinkedIn</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">LinkedIn</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="socials__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Crunchbase</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Crunchbase</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom bottom-footer">
+                    <div class="bottom-footer__content">
+                        <div class="footer__copyright">2026© Thytadel Limited. All rights reserved.</div>
+                        <div class="footer__patent">UK Patent GB2623311</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=SITE_KEY"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>

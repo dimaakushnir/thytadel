@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-lenis">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Thytadel</title>
+</head>
+
+<body>
+    <svg display="none">
+    <symbol id="arrow20" viewBox="0 0 20 20">
+        <g>
+            <path
+                d="M3.59586 15.4432L12.9798 6.05932L4.93641 6.05932L4.86747 4.97921L14.8259 4.97921L14.8259 14.9376L13.7458 14.8687L13.7458 6.82535L4.36189 16.2092L3.59586 15.4432Z" />
+        </g>
+    </symbol>
+    <symbol id="arrow46" viewBox="0 0 46 46">
+        <g>
+            <path
+                d="M13.1313 32.3226L29.7336 15.7203L15.503 15.7203L15.3811 13.8094L32.9998 13.8094L32.9998 31.4281L31.0888 31.3061L31.0888 17.0756L14.4866 33.6779L13.1313 32.3226Z" />
+        </g>
+    </symbol>
+</svg>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__main">
+                <div class="header__container container">
+                    <div class="header__row">
+                        <a href="index.html" class="header__logo">
+                            <span class="header__logo_white">
+                                <img src="img/logo-white.svg" alt="Thytadel">
+                            </span>
+                            <span class="header__logo_black">
+                                <img src="img/logo-black.svg" alt="Thytadel">
+                            </span>
+                        </a>
+                        <nav class="header__menu menu-header" data-da="mobile-header__inner, 0, 1200">
+                            <ul>
+                                <li>
+                                    <a href="technology.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Tech</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Tech</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="procurement.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Procurement</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Procurement</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="concierge.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Concierge</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Concierge</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="assets.html" class="menu-header__link link">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">Asset Management</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">Asset Management</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.html" class="menu-header__link link active">
+                                        <span class="link__inner">
+                                            <span class="link__content">
+                                                <span class="link__text">About Us</span>
+                                            </span>
+                                            <span class="link__content">
+                                                <span class="link__text">About Us</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__btns">
+                            <a href="" class="header__contact btn btn_small btn_border-black">Contact</a>
+                            <button class="header__burger">
+                                <span></span><span></span><span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile mobile-header">
+                <div class="mobile-header__container container">
+                    <div class="mobile-header__body">
+                        <div class="mobile-header__inner">
+                            <div class="mobile-header__contacts contacts">
+                                <div class="contacts__address">
+                                    Thytadel Limited<br>
+                                    United Kingdom
+                                </div>
+                                <div class="contacts__links">
+                                    <div class="contacts__link link-contacts">
+                                        <span class="link-contacts__label">Email:</span>
+                                        <a href="mailto:contact@thytadel.com"
+                                            class="link-contacts__value">contact@thytadel.com</a>
+                                    </div>
+                                    <div class="contacts__link link-contacts">
+                                        <span class="link-contacts__label">Phone:</span>
+                                        <a href="tel:+443458558787" class="link-contacts__value">+44 345 855 8787</a>
+                                    </div>
+                                </div>
+                                <div class="contacts__socials socials">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Instagram</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Youtube</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">LinkedIn</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="about">
+            <section class="about__hero about-hero">
+                <div class="about-hero__container container">
+                    <div class="about-hero__body">
+                        <div class="about-hero__bg ibg">
+                            <img src="img/hero/03.jpg" alt="about-hero-img">
+                        </div>
+                        <div class="about-hero__content">
+                            <h1 class="about-hero__title animate__animated animate__fadeIn"
+                                style="animation-delay: 0.5s; animation-duration: 1.5s;">
+                                A company built to save lives
+                            </h1>
+                            <div class="about-hero__text b1 animate__animated animate__fadeIn"
+                                style="animation-delay: 1s; animation-duration: 1.5s;">
+                                <p>
+                                    Thytadel was founded by a father and son who understood risk firsthand - on the
+                                    water, under pressure, where seconds decide outcomes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="origins">
+                <div class="origins__container container">
+                    <div class="origins__top top top_black top_label">
+                        <div class="top__label b4 wow animate__animated animate__fadeInLeft">Origins</div>
+                        <div class="top__row">
+                            <div class="top__column top__column_title wow animate__animated animate__fadeInLeft">
+                                <h2 class="top__title medium">
+                                    Where the story<br> begins
+                                </h2>
+                            </div>
+                            <div class="top__column top__column_text wow animate__animated animate__fadeInRight">
+                                <div class="top__text b4">
+                                    <p>
+                                        Thytadel’s origin lies in a lifelong relationship with the sea.<br>
+                                        Sergey Dzhienbaev competed at the highest levels of professional sailing in some
+                                        of the world’s most demanding classes - including Tornado, 49er, and Nacra 17.
+                                        These were not controlled environments. They were defined by speed, instability,
+                                        and consequence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="origins__body">
+                        <div class="origins__row">
+                            <div class="origins__column wow animate__animated animate__fadeInLeft">
+                                <div class="origins__image">
+                                    <img src="img/logo-white.svg" alt="Thytadel" class="origins__logo">
+                                    <img src="img/home/tech/03.jpg" alt="origins-img" class="origins__img">
+                                    <span class="origins__year b4">2026</span>
+                                </div>
+                            </div>
+                            <div class="origins__column wow animate__animated animate__fadeInRight">
+                                <div class="origins__content">
+                                    <div class="origins__text b1">
+                                        <p>
+                                            Beyond competition, Sergey became deeply involved in offshore operations,
+                                            holding world records and serving as manager and keeper of Comanche - one of
+                                            the most advanced racing yachts ever built - from the Maxi Yacht Rolex Cup
+                                            in 2015 through to the RORC Transatlantic Race in 2022.
+                                        </p>
+                                    </div>
+                                    <div class="origins__bottom">
+                                        <div class="origins__bottom-logo">
+                                            <img src="img/about/origins/01.png" alt="Rorc transatlantic race">
+                                        </div>
+                                        <a href="" class="origins__btn btn-arrow btn-arrow_border-black">
+                                            <svg>
+                                                <use xlink:href="#arrow20"></use>
+                                            </svg>
+                                            <span>More about team</span>
+                                            <svg>
+                                                <use xlink:href="#arrow20"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="challenge">
+                <div class="challenge__container container">
+                    <div class="challenge__top top top_black top_label">
+                        <div class="top__label b4 wow animate__animated animate__fadeInLeft">The Challenge</div>
+                        <div class="top__row">
+                            <div class="top__column top__column_title wow animate__animated animate__fadeInLeft">
+                                <h2 class="top__title medium">
+                                    The Problem That United Them
+                                </h2>
+                            </div>
+                            <div class="top__column top__column_text wow animate__animated animate__fadeInRight">
+                                <div class="top__text b4">
+                                    <p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="challenge__body">
+                        <div class="challenge__row">
+                            <div class="challenge__column wow animate__animated animate__fadeInUp">
+                                <div class="challenge__item item-challenge">
+                                    <div class="item-challenge__title b1">A new generation of systems thinking</div>
+                                    <div class="item-challenge__content">
+                                        <div class="item-challenge__text b4">
+                                            <p>
+                                                Growing up around elite sailing campaigns, operations rooms, and
+                                                engineering discussions, Alexander Dzhienbaev developed an early
+                                                understanding of risk, complexity, and consequence.
+                                                Alexander pursued engineering and business at University College London,
+                                                while simultaneously engaging with early-stage technology - from mobile
+                                                application startups to emerging AI systems.
+                                                Where Sergey understood the physical reality of risk, Alexander focused
+                                                on how systems, software, and intelligence could reduce it.<br>
+                                                Their perspectives were different.<br>
+                                                Their goal was the same.<br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="challenge__column wow animate__animated animate__fadeInUp">
+                                <div class="challenge__item item-challenge">
+                                    <div class="item-challenge__title b1">When seconds matter</div>
+                                    <div class="item-challenge__content">
+                                        <div class="item-challenge__text b4">
+                                            <p>
+                                                Across decades of sailing, one reality remained constant:
+                                                when someone falls into water, response time determines survival.
+                                                Human attention alone was not enough.
+                                                Visibility is limited. Noise is constant. Distractions are unavoidable.
+                                                Together, father and son decided to address the problem not as a product
+                                                opportunity, but as a responsibility.<br>
+                                                They designed a system capable of detecting incidents, assessing
+                                                severity, and prompting immediate response - technology shaped by real
+                                                conditions, not theory.
+
+                                            </p>
+                                        </div>
+                                        <div class="item-challenge__bottom">
+                                            <div class="item-challenge__info b4">
+                                                That system became UK Patent GB2623311.
+                                            </div>
+                                            <a href="#" type='submit'
+                                                class='item-challenge__btn btn-arrow btn-arrow_black'>
+                                                <svg>
+                                                    <use xlink:href="#arrow20"></use>
+                                                </svg>
+                                                <span>View patent</span>
+                                                <svg>
+                                                    <use xlink:href="#arrow20"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="challenge__column wow animate__animated animate__fadeInUp">
+                                <div class="challenge__item item-challenge">
+                                    <div class="item-challenge__title b1">From family system to institutional platform
+                                    </div>
+                                    <div class="item-challenge__content">
+                                        <div class="item-challenge__text b4">
+                                            <p>
+                                                The patented technology led to early licensing agreements and live
+                                                deployments in competitive sailing environments.
+                                                As the system matured, its relevance extended far beyond water.<br>
+                                                The same conditions that define offshore sailing - incomplete
+                                                information, delayed recognition, fragmented response - exist across
+                                                public spaces, infrastructure, and asset-heavy environments.
+                                                Thytadel was formed to carry that original system forward - expanding it
+                                                into a broader safety intelligence platform, while applying the same
+                                                operational discipline to government supply, private execution, and
+                                                asset operations.<br>
+                                                The company grew.<br>
+                                                The principle did not change.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="challenge__column wow animate__animated animate__fadeInUp">
+                                <div class="challenge__item item-challenge">
+                                    <div class="item-challenge__title b1">Guided by those who competed at the highest
+                                        level</div>
+                                    <div class="item-challenge__content">
+                                        <div class="item-challenge__text b4">
+                                            <p>
+                                                From the beginning, the venture benefited from guidance and support from
+                                                Olympic-level sailors who understood both competition and consequence.
+                                                This included Mitch Booth, Rodion Luka, and Fernando Echávarri - rivals
+                                                and friends of Sergey, and later mentors to Alexander.
+                                                Their insight ensured the technology was not only innovative, but
+                                                realistic - shaped by the expectations of those who had operated at the
+                                                edge of human and technical limits.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="capabilities">
+                <div class="capabilities__bg ibg">
+                    <img src="img/about/capabilities/01.jpg" alt="capabilities-img">
+                </div>
+                <div class="capabilities__container container">
+                    <div class="capabilities__top top top_white top_label">
+                        <div class="top__label b4 wow animate__animated animate__fadeInLeft">Capabilities</div>
+                        <div class="top__row">
+                            <div class="top__column top__column_title wow animate__animated animate__fadeInLeft">
+                                <h2 class="top__title medium">
+                                    Built for<br> confidentiality
+                                </h2>
+                            </div>
+                            <div class="top__column top__column_text wow animate__animated animate__fadeInRight">
+                                <div class="top__text b4">
+                                    <p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="capabilities__body wow animate__animated animate__fadeInUp">
+                        <div class="capabilities__content">
+                            <div class="capabilities__item item-capabilities">
+                                <div class="item-capabilities__text b1">
+                                    <p>
+                                        Development of civil safety and risk-intelligence technology
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="capabilities__item item-capabilities">
+                                <div class="item-capabilities__text b1">
+                                    <p>
+                                        Fulfilment of government supply and infrastructure contracts
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="capabilities__item item-capabilities">
+                                <div class="item-capabilities__text b1">
+                                    <p>
+                                        Discreet private execution and concierge operations
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="capabilities__item item-capabilities">
+                                <div class="item-capabilities__text b1">
+                                    <p>
+                                        Ownership and management of in-house yachts, vehicles, and real estate
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="contact__container container">
+                    <div class="contact__top top-2 wow animate__animated animate__fadeIn"
+                        style="animation-duration: 1.5s;">
+                        <div class="top-2__label">Contact us</div>
+                        <div class="top-2__title">
+                            Each activity reflects the same foundation:
+                            systems must work when conditions are imperfect.
+                            <span>Thytadel remains family-founded, operator-led, and disciplined by experience.</span>
+                        </div>
+                    </div>
+                    <div class="contact__body">
+                        <div class="contact__content wow animate__animated animate__fadeInLeft">
+                            <h2 class="contact__title medium">
+                                Contact Thytadel
+                            </h2>
+                            <div class="contact__text b4">
+                                <p>
+                                    Reach out for inquiries on civil safety solutions, government contracts,
+                                    concierge-block
+                                    services, or asset management. Our team will respond promptly to assist you.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact__form form-contact wow animate__animated animate__fadeInRight">
+                            <form action="#" id="contactForm" novalidate>
+                                <div class="form-contact__item">
+                                    <input placeholder="Name" type='text' name='yourname' class='form-contact__input b4'
+                                        required>
+                                </div>
+                                <div class="form-contact__item">
+                                    <input placeholder="Phone" type='tel' name='yourphone'
+                                        class='form-contact__input b4' required>
+                                </div>
+                                <div class="form-contact__item">
+                                    <textarea name="yourmessage" class="form-contact__textarea b4"
+                                        placeholder="Briefly describe the purpose of your enquiry or area of interest"
+                                        required></textarea>
+                                </div>
+                                <input type="hidden" name="recaptcha_token">
+                                <button type='submit' class='form-contact__btn btn btn_small btn_border-black'>Submit
+                                    request</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__main">
+                    <div class="footer__row">
+                        <div class="footer__column footer__column_logo">
+                            <div class="footer__content">
+                                <a href="index.html" class="footer__logo">
+                                    <img src="img/logo-white.svg" alt="Thytadel">
+                                </a>
+                                <div class="footer__contacts contacts">
+                                    <div class="contacts__address">
+                                        Thytadel Limited<br>
+                                        United Kingdom
+                                    </div>
+                                    <div class="contacts__links">
+                                        <div class="contacts__link link-contacts">
+                                            <span class="link-contacts__label">Email:</span>
+                                            <a href="mailto:contact@thytadel.com"
+                                                class="link-contacts__value">contact@thytadel.com</a>
+                                        </div>
+                                        <div class="contacts__link link-contacts">
+                                            <span class="link-contacts__label">Phone:</span>
+                                            <a href="tel:+443458558787" class="link-contacts__value">+44 345 855
+                                                8787</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column footer__column_menu">
+                            <div class="footer__content">
+                                <div class="footer__menu menu-footer">
+                                    <div class="menu-footer__title b2">Site Menu</div>
+                                    <nav>
+                                        <ul>
+                                            <li>
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Tech</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Tech</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Procurement</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Procurement</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Concierge</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Concierge</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+
+                                                <a href="" class="menu-footer__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Asset Management</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Asset Management</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="menu-footer__link link active">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">About Us</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">About Us</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="footer__partners partners-footer">
+                                    <div class="partners-footer__title b2">Partners</div>
+                                    <div class="partners-footer__list">
+                                        <div class="partners-footer__item">
+                                            <img src="img/footer-partners/uk-government.svg" alt="uk-government">
+                                        </div>
+                                        <div class="partners-footer__item">
+                                            <img src="img/footer-partners/university-college-london.svg"
+                                                alt="university-college-london">
+                                        </div>
+                                        <div class="partners-footer__item">
+                                            <img src="img/footer-partners/tenzor.svg" alt="tenzor">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column footer__column_form" data-da="bottom-footer, 1, 1200">
+                            <div class="footer__content">
+                                <div class="footer__form form-footer">
+                                    <div class="form-footer__title b2">Subscribe now</div>
+                                    <form action="#" id="subscribeForm" novalidate>
+                                        <div class="form-footer__row">
+                                            <input type='email' name='youremail' class='form-footer__input' required>
+                                            <input type="hidden" name="recaptcha_token">
+                                            <button type='submit' class='form-footer__btn btn-arrow btn-arrow_white'>
+                                                <svg>
+                                                    <use xlink:href="#arrow20"></use>
+                                                </svg>
+                                                <span>Subscribe</span>
+                                                <svg>
+                                                    <use xlink:href="#arrow20"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </form>
+                                    <div class="form-footer__socials socials">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="socials__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">LinkedIn</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">LinkedIn</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="socials__link link">
+                                                    <span class="link__inner">
+                                                        <span class="link__content">
+                                                            <span class="link__text">Crunchbase</span>
+                                                        </span>
+                                                        <span class="link__content">
+                                                            <span class="link__text">Crunchbase</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom bottom-footer">
+                    <div class="bottom-footer__content">
+                        <div class="footer__copyright">2026© Thytadel Limited. All rights reserved.</div>
+                        <div class="footer__patent">UK Patent GB2623311</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=SITE_KEY"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
