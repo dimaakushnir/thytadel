@@ -1374,9 +1374,6 @@ h3 {
 .header.scrolled.header-white .header__burger span {
   background: var(--black);
 }
-.header.header-white .header__main {
-  position: absolute;
-}
 .header.header-white .header__logo_black {
   display: none;
 }
