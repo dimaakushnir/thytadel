@@ -2537,9 +2537,19 @@ h3 {
   height: 100%;
   background: var(--overlay-blue);
 }
+@media (max-width: 600px) {
+  .about-us__bg.ibg {
+    background-position: 50% 100%;
+  }
+}
 @media (max-width: 480.98px) {
   .about-us__bg.ibg {
     background-size: 140%;
+    background-position: 50% 50%;
+  }
+}
+@media (max-width: 400px) {
+  .about-us__bg.ibg {
     background-position: 50% 100%;
   }
 }
