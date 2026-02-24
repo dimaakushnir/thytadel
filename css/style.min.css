@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @font-face {
   font-family: FixelDisplay;
   font-display: swap;
@@ -5798,5 +5799,91 @@ h3 {
 @media (max-width: 480.98px) {
   .form-footer__socials .socials__link {
     height: 14px;
+  }
+}
+
+.rootpage {
+  color: #5e5373;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  animation: change-bg 10s linear infinite;
+}
+
+.rootpage-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  font-size: 0;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.rootpage-body {
+  position: relative;
+  padding: 30px;
+  flex: 1 1 auto;
+}
+
+.rootpage h1 {
+  font-size: 40px;
+  font-family: "Caveat";
+  margin: 0px 0px 30px 0px;
+}
+
+.rootpage h2 {
+  font-family: "Caveat";
+  font-size: 22px;
+  margin: 0px 0px 15px 0px;
+}
+
+.rootpage-pages {
+  margin: 0px 0px 30px 0px;
+  list-style: none;
+  counter-reset: item;
+}
+
+.rootpage-pages li {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  font-family: "Caveat";
+}
+.rootpage-pages li a {
+  font-family: "Caveat";
+  font-size: 20px;
+  text-decoration: underline;
+  color: #118777;
+}
+.rootpage-pages li a:hover {
+  text-decoration: none;
+}
+
+.rootpage-pages li:before {
+  content: counter(item) ".";
+  counter-increment: item;
+  margin: 0px 10px 0px 0px;
+}
+
+@keyframes change-bg {
+  0% {
+    background-color: #A0D1E6;
+  }
+  25% {
+    background-color: #98FF98;
+  }
+  50% {
+    background-color: #FFA07A;
+  }
+  75% {
+    background-color: #E6E6FA;
+  }
+  100% {
+    background-color: #A0D1E6;
   }
 }

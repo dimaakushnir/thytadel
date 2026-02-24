@@ -3,28 +3,33 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+// PHPMailer
 require __DIR__ . '/../vendor/phpmailer/src/Exception.php';
 require __DIR__ . '/../vendor/phpmailer/src/PHPMailer.php';
 require __DIR__ . '/../vendor/phpmailer/src/SMTP.php';
 
+/**
+ * Відправка листа
+ */
 function sendMail(string $subject, string $body): bool
 {
     $mail = new PHPMailer(true);
 
     try {
+        // SMTP налаштування
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = 'mail.thytadel.com';        // 🔴 SMTP host
         $mail->SMTPAuth = true;
-
-        $mail->Username = 'yourmail@gmail.com';      // 🔴
-        $mail->Password = 'APP_PASSWORD';             // 🔴
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+        $mail->Username = 'info@thytadel.com';    // 🔴 
+        $mail->Password = 'EMAIL_PASSWORD';       // 🔴
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // SSL
+        $mail->Port = 465;                         // or 587
 
         $mail->CharSet = 'UTF-8';
-        $mail->setFrom('yourmail@gmail.com', 'Website');
-        $mail->addAddress('yourmail@gmail.com');
+        $mail->setFrom('info@thytadel.com', 'Thytadel'); // 🔴
+        $mail->addAddress('info@thytadel.com');         // 🔴
 
+        $mail->isHTML(true);
         $mail->Subject = $subject;
         $mail->Body = $body;
 
@@ -34,20 +39,31 @@ function sendMail(string $subject, string $body): bool
     }
 }
 
+/**
+ *  Google reCAPTCHA v3
+ */
 function checkRecaptcha(string $token): bool
 {
-    $secret = 'SECRET_KEY'; // 🔴
+    $secret = 'SECRET_KEY'; // 🔴 reCAPTCHA Secret Key
 
-    if (!$token) return false;
+    if (!$token) {
+        return false;
+    }
 
     $response = file_get_contents(
         'https://www.google.com/recaptcha/api/siteverify?secret=' .
         $secret . '&response=' . $token
     );
 
-    if (!$response) return false;
+    if (!$response) {
+        return false;
+    }
 
     $result = json_decode($response, true);
 
-    return $result['success'] === true && $result['score'] >= 0.5;
+    return (
+        isset($result['success'], $result['score']) &&
+        $result['success'] === true &&
+        $result['score'] >= 0.5
+    );
 }
